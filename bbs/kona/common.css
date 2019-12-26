@@ -1,0 +1,114 @@
+img {max-width: 100%;height: auto;}
+.clearfix {zoom: 1;}
+.ico{background: url(../images/sampression-css-sprite.png) no-repeat 0 0;}
+#discover{position: relative;width:980px;}
+.block {   position: absolute;background: #FCFEFF;width: 232px;border-radius: 10px;margin:0;-moz-border-radius: 10px;-webkit-border-radius: 10px;}
+.block {    -webkit-transition: all 1s ease-in-out;    -moz-transition: all 1s ease-in-out;    -o-transition: all 1s ease-in-out;    -ms-transition: all 1s ease-in-out;    transition: all 1s ease-in-out;}
+.discover{background: #E1F2FA; height:400px;}
+#discover a,#discover a:visited, #discover a:link{color: #76B4D6};
+#discover a:hover{color: #379FD8;}
+
+.post-title {
+font-size: 14px;
+line-height: 16px;
+font-weight: bold;
+padding: 10px;
+margin: 0;
+word-wrap: break-word;
+}
+#discover .post-title a{color: #069}
+
+
+
+.count-comment {
+position: absolute;
+right: 10px;
+top: 10px;
+z-index: 10;
+}
+.count-comment .pointer {
+background: url(../images/sampression-css-sprite.png) no-repeat -3px -295px;
+width: 5px;
+height: 3px;
+display: block;
+position: absolute;
+left: 5px;
+bottom: -2px;
+}
+.count-comment a {
+background: #C1D6D2;
+padding: 0 7px;
+display: inline-block;
+color: white;
+line-height: 1;
+text-align: center;
+font-size: 12px;
+font-weight: normal;
+line-height: 18px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+}
+
+.featured-img {
+height: 80px;
+overflow: hidden;
+margin-bottom: 10px;
+}
+
+.description{padding:0 20px 10px;}
+
+.read-more{display: block;padding: 10px 0 0 0;}
+.meta {
+font-size: 11px;
+clear: both;
+}
+.meta {
+border-top: 1px dashed #C2CFCC;
+padding: 5px 15px;
+}
+
+.post-author {
+margin-left: 5px;
+}
+.col {
+display: inline;
+float: right;
+clear: right;
+}
+.meta .time {
+margin-left: 10px;
+}
+.meta .time .ico {
+	background-position:-14px -128px;
+	margin-top:4px;
+	}
+.cats .ico {
+	background-position:0 -139px;
+	margin-top:3px;
+	margin-left:5px;
+	}
+.edit .ico {
+	background-position:-14px -141px;
+	}
+.tags .ico {
+	background-position:-14px -113px;
+	width:13px;
+	}
+
+
+.post-author .ico {
+background-position: 0 -128px;
+margin-top: 4px;
+}
+.ico {
+width: 10px;
+height: 11px;
+display: block;
+float: right;
+text-indent: -9999px;
+margin: 5px 2px 5px 5px;
+}
+.meta div{width:200px;}
+.meta a{display: block; float: right; width: 160px;}
+.meta .cats div{width:180px;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;}

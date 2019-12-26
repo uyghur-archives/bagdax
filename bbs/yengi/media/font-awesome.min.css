@@ -1,0 +1,14 @@
+@font-face {
+	font-family: "UKIJ Tuz";
+	font-weight: normal;
+	src: local("UKIJ Tuz"), url("./UKIJTuz.ttf") format("TrueType"); /* non-IE */
+
+body{
+	font-size: 120%;
+	font-family: UKIJ Tuz, UKIJ Basma, Boghda Tuz, UKIJ Nasq, Arial Unicode MS,Tahoma;
+	text-align: justify;
+}
+
+div, p, table, td, tr{
+	font-family: UKIJ Tuz, UKIJ Basma, Boghda Tuz, UKIJ Nasq, Arial Unicode MS,Tahoma;
+}
